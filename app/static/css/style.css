@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    max-height: 100%;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Open Sans',sans-serif;
+	overflow-x:hidden;
+}
+
+.main-toolbar{
+    width: 100%;
+    height: 50px;
+}
+
+.main-toolbar-btn{
+    width: 20%;
+    height: 50px;
+    border: 1px solid #D7D7D7;
+}
+
+.description {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.description-head {
+    color: gray;
+    font-variant: small-caps;
+    font-size: 98%;
+}
+
+.description-list {
+    font-size: 80%;
+}
+
+.cost-card {
+    padding-top: 25px;
+}
+
+.cost {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cost-text {
+    color: gray;
+    font-size: 60%;
+}
+
+.cart-btn {
+    background-color: #FFDB4D;
+    color: black;
+    border: 1px solid #DDD150;
+    width: 50%;
+    font-size: 90%;
+}
+
+.cart-btn:hover {
+    background-color: #FFCD08;
+    color: black;
+    border: 1px solid #DDD150;
+}
+
+.cart-btn:after {
+    background-color: #FFCD08;
+    color: black;
+    border: 1px solid #DDD150;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.main-card {
+   padding-top: 0px;
+}
+
+
+.card-img{
+  width: 170px;
+  height: 170px;
+  /*background: #383838;*/
+  line-height: 200px;
+  text-align: center;
+}
+
+.card-img img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.card-block-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.prod-img {
+     width: 250px;
+     align-self: center;
+}
+
+.main-img{
+    text-align: center;
+}
+
+.small-card-title{
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.small-card-cost{
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.footer {
+  /*position: absolute;*/
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.list-card {
+  max-width: 278px;
+}
